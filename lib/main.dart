@@ -1,7 +1,9 @@
 import 'package:estados/screens/page1.dart';
 import 'package:estados/screens/page2.dart';
 import 'package:flutter/material.dart';
+import 'package:logger/logger.dart';
 
+var logger = Logger();
 void main() {
   runApp(const MyApp());
 }
